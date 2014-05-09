@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="btn-toolbar" role="toolbar">
+  <div class="btn-group">${1:primo}</div>
+  <div class="btn-group">${2:secondo}</div>
+</div>
+]]></content>
+	<tabTrigger>bootstrapButtonToolbar</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
