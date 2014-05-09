@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="input-group">
+  <span class="input-group-addon">${1:left}</span>
+  <input type="text" class="form-control">
+  <span class="input-group-addon">${2:right}</span>
+</div>
+]]></content>
+	<tabTrigger>bootstrapInput</tabTrigger>
+</snippet>

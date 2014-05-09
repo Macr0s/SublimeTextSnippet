@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<button type="button" class="btn btn-default btn-lg">
+  <span class="${1:icona}"></span> ${2:testo}
+</button>
+]]></content>
+	<tabTrigger>bootstrapButton</tabTrigger>
+</snippet>

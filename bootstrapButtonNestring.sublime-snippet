@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+      ${1:title}
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">${2:elem1}</a></li>
+      <li><a href="#">${3:elem2}</a></li>
+    </ul>
+]]></content>
+	<tabTrigger>bootstrapButtonNesting</tabTrigger>
+</snippet>

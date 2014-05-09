@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<li class="dropdown">
+  	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      Dropdown <span class="caret"></span>
+    </a>
+ 	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+	  	<li role="presentation" class="dropdown-header">Dropdown header</li>
+	 	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Regular link</a></li>
+  		<li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Disabled link</a></li>
+  		<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another link</a>
+	  	<li role="presentation" class="divider"></li>
+	  	<li role="presentation" class="dropdown-header">Dropdown header</li>
+	  	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Regular link</a></li>
+  		<li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Disabled link</a></li>
+  		<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another link</a><
+	</ul>
+</li>
+]]></content>
+	<tabTrigger>bootstrapDropbownli</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
