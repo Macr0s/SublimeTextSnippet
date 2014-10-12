@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\begin{center}
+	${1:in}
+\end{center}
+]]></content>
+	<tabTrigger>centerLatex</snippet>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

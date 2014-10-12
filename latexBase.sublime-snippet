@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+\documentclass[12pt,a4paper]{book}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{minted}
+\title{${1:title}}
+\author{${2:author}}
+\date{${3:date}}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{prova}
+\section{prova}
+\subsection{prova}
+
+\end{document}
+]]></content>
+	<tabTrigger>baseLatex</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

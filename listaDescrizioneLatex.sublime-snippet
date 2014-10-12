@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+\begin{description}
+  \item[${1:primo nome}] ${2:prima descrizione}
+  \item[${3:secondo nome}] ${4:seconda descrizione}
+\end{description}
+]]></content>
+	<tabTrigger>listaDescrizioneLatex</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+require_once("db.php");
+define("DB_HOST", "${1:host}");
+define("DB_USER", "${2:user}");
+define("DB_PASS", "${3:pass}");
+define("DB_DATA", "${4:data}");
+
+$db = null;
+
+function db_access($query){
+	global $db;
+	if ($db == NULL){
+		$db = new db(DB_HOST, DB_USER, DB_PASS, DB_DATA);
+	}
+	return $db->go($query);
+}
+]]></content>
+	<tabTrigger>dbPHP</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
