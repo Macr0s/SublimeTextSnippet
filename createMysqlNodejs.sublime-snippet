@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+var connection = mysql.createConnection({
+	host     : '${1:host}',
+	user     : '${2:user}',
+	password : '${3:password}'
+});
+]]></content>
+	<tabTrigger>createMysqlNodejs</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

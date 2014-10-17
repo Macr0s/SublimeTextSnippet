@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+connection.query("${1:query}", function (err, rows){
+	${2:#code}
+});
+]]></content>
+	<tabTrigger>mysqlQueryNodejs</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

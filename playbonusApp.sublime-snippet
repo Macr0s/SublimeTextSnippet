@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<?php
+	require_once("autoload.php");
+
+	start_session();
+
+	class ${1:playbonusManager} extends PlayBonusRequest{
+
+		public function ${2:HelloWork}(\$data){
+
+		}
+	}
+
+	new PlayBonusServer(new ${1:playbonusManager}());
+?>
+]]></content>
+	<tabTrigger>playbonusApp</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
